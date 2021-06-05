@@ -1,0 +1,11 @@
+{
+    "type": "mongodb",
+    "url": "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+    "port": 27017,
+    "database": "main-microsevices",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/entity/**/*.js"
+    ]
+}
